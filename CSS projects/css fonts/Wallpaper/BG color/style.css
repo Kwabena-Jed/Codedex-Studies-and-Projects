@@ -1,0 +1,14 @@
+/* Write code below 💖 */
+#outer {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+
+#inner {
+  width: 400px;
+  height: 400px;
+  background-image: url('https://i.pinimg.com/1200x/60/22/0e/60220efda8581be8171234e8b23ed75b.jpg');
+   background-size: contain; 
+  background-repeat: no-repeat;
+}
