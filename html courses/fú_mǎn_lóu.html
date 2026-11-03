@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant</title>
+        
+        <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            }
+
+            .container {
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            }
+
+            img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            }
+
+            h1 {
+            margin-bottom: 10px;
+            }
+
+            .about {
+            margin-bottom: 30px;
+            line-height: 1.5;
+            }
+
+            .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            }
+
+            .link-button {
+            background-color: rgb(143, 174, 233);
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            display: block;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <img src="https://i.pinimg.com/1200x/96/ee/55/96ee551279c55efe9f0ff247d369ec97.jpg" 
+            alt="Restaurant Logo" id="header-img">
+
+            <nav >
+                <a href="#">Menu</a>
+                <a href="#">Order Form</a>
+            </nav>
+                
+            <h1>福满楼</h1>
+            <h2>Fú Mǎn Lóu</h2>
+            <h2>House of Abundant Blessings </h2>
+            <h3>Where Every Meal Brings Happiness.</h3>
+        </header>
+
+        <main>
+            <section>
+                <h2>Menu</h2>
+                <article>
+                    <h3>Kung Pao Chicken</h3>
+                    <figure>
+                        <img width="150"
+                        src="https://i.pinimg.com/1200x/27/70/54/277054796ee02925ecad7789bad9ad9e.jpg"
+                        alt="Kung Pao Chicken">
+                    </figure>
+                    <p>
+                        Tender chicken pieces stir-fried with peanuts, 
+                        dried chillies, and vegetables in a savoury, 
+                        slightly spicy sauce. 
+                        Price: GHS 85.00
+                    </p>
+                </article>
+
+               
+                <article>
+                    <h3>Sweet and Sour Pork</h3>
+                    <figure>
+                        <img width="150"
+                        src="https://i.pinimg.com/1200x/3e/24/0b/3e240b5d07697dcb3c76857728bca4ae.jpg"
+                        alt="Sweet and Sour Pork">
+                    </figure>
+                    <p>
+                       Crispy pork pieces coated in a tangy sweet-and-sour sauce, 
+                       often served with pineapple and colourful peppers. 
+                       Price: GHS 90.00
+                    </p>
+                </article>
+
+                
+                <article>
+                    <h3>Yangzhou Fried Rice</h3>
+                    <figure>
+                        <img width="150"
+                        src="https://i.pinimg.com/1200x/fa/02/7e/fa027ea37b0aea9a3ae67ae67abbff02.jpg"
+                        alt="Yangzhou Fried Rice">
+                    </figure>
+                    <p>
+                        A classic Sichuan dish made with diced pork, pineapple, and vegetables, 
+                        stir-fried in a sweet and sour sauce. 
+                        Served with steamed rice.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Peking Roast Duck </h3>
+                    <figure>
+                        <img width="150"
+                        src="https://i.pinimg.com/1200x/57/25/a8/5725a8bb9e1250bf7a900761b19fb312.jpg"
+                        alt="Peking Roast Duck">
+                    </figure>
+                    <p>
+                        A famous Beijing speciality featuring roast duck with crisp, 
+                        golden skin and tender meat, traditionally served with thin pancakes, 
+                        cucumber, and savoury sauce. 
+                        Price: GHS 150.00
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Mapo Tofu </h3>
+                    <figure>
+                        <img width="150"
+                        src="https://i.pinimg.com/236x/c1/4c/a8/c14ca8ccf690a93e7bf632a43e320885.jpg"
+                        alt="Mapo Tofu">
+                    </figure>
+                    <p>
+                        A famous Sichuan dish featuring soft tofu in a spicy, 
+                        flavourful sauce with minced meat. 
+                        Price: GHS 80.00
+                    </p>
+                </article>
+            </section>
+
+            <section>
+                <h2>Place Your Order</h2>
+                <fieldset>
+                    <legend>Order Form</legend>
+                    <form>
+                        <label>`
+                            Number of Orders (0-1500):
+                            <input type="number" name="number"
+                            min="0" max="1500" required>
+                        </label>
+                        <br>
+
+                        <label>`
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="spring-rolls">
+                            Spring Rolls (春卷)
+                        </label>
+                        <br>
+                        <label>`
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="dumplings">
+                            Dumplings (饺子)
+                        </label>
+                        <br>
+                        <label>`
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="steamed-rice">
+                            Steamed Rice (米饭)
+                        </label>
+                        <br>
+
+                        <label>`
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="scallion-pancakes">
+                            Scallion Pancakes (葱油饼)
+                        </label>
+                        <br>                    
+                        <label>`
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="prawn-crackers">
+                            Prawn Crackers (虾片)
+                        </label>
+                        <br>
+                        <label>
+                            sides and add-ons:
+                            <input type="checkbox" name="add-on" value="chilli-oil">
+                            Chilli Oil (辣椒油)
+                        </label>
+                        <br>
+                        <textarea  max="2000">For Special request</textarea>
+                        <br>
+                        <input type="submit" value="Go To Checkout">
+                    </form>
+            </fieldset>>
+            </section>
+        </main>
+
+        <footer>
+              Made with love by  KwabenaJed. &copy 2026
+        </footer>
+                       
+    </body>
+</html>
