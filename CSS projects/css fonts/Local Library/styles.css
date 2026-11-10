@@ -25,11 +25,12 @@ h1{
 
 .nav-item{
   width: 33%;
-  border: ;
-  border-color: blue;
+  border: 2px solid;
+  border-color: green;
   border-radius: 5px;
   padding: 5px;
-  margin: 10px
+  margin: 10px;
+  color: white;
 }
 
 main{
